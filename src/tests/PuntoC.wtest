@@ -1,0 +1,8 @@
+import centrales.centralEolica
+import turbinas.turbinaUno
+test "testElSuspiroProduce2Mkwh" {
+	
+	assert.that(centralEolica.obtenerProduccionEnergetica()==2)
+
+}
+

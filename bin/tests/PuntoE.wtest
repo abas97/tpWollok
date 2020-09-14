@@ -1,0 +1,7 @@
+
+import ciudades.springfield
+test "testConNecesidadDe20MkwhSpringfieldCumpleEsaNecesidad" {
+	springfield.setNecesidadProductiva(20)
+	assert.that(springfield.cubreNecesidadProductiva())
+
+}

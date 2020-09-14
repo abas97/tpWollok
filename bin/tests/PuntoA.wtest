@@ -1,0 +1,7 @@
+
+import centrales.centralAtomica
+test "testBurnsCon10VarillasProduce1Mkwh" {
+	centralAtomica.setVarillasDeUranio(10)
+	assert.that(centralAtomica.obtenerProduccionEnergetica()==1)
+
+}

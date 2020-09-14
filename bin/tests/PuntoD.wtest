@@ -1,0 +1,7 @@
+
+import ciudades.springfield
+import centrales.centralEolica
+test "testLaUnicaCentralContaminanteEsExBosque" {
+	assert.that(springfield.obtenerCentralesContaminantes()==centralDeCarbon)
+
+}

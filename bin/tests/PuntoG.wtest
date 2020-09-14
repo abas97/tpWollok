@@ -1,0 +1,7 @@
+
+import region.region
+test "testLasCentralesMasProductorasDeLaRegionSonExBosqueYLaCentralHidroelectrica" {
+
+	assert.that(region.obtenerMejorCentralPorCiudad()==[centralDeCarbon, centralHidroelecrica])
+
+}

@@ -1,0 +1,7 @@
+
+import centrales.centralDeCarbon
+test "testExBosqueCon20ToneladasProduce18.5mkwh" {
+	centralDeCarbon.setCapacidadEnToneladas(20)
+	assert.that(centralDeCarbon.obtenerProduccionEnergetica()==18.45)
+
+}
